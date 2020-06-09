@@ -5,8 +5,6 @@ import java.util.Date;
 
 public class Transaction {
     private Client client;
-    private Long id;
-    private String Name;
     private Date Transaction_date;
     private String Product;
     private Integer Price;
