@@ -1,6 +1,8 @@
 package BatchLayer.model;
 
-public class Client {
+import java.io.Serializable;
+
+public class Client implements Serializable {
     private Long id;
     private String name;
 

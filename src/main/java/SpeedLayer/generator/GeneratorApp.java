@@ -13,7 +13,6 @@ public class GeneratorApp {
             Thread.sleep(1000);
             Transaction transaction = new TransactionGeneratorRandom().generateRandomTransactionRecord();
             producer.run(timestamp, transaction);
-            System.out.println(i);
         }
     }
 }

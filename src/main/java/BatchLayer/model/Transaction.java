@@ -1,9 +1,10 @@
 package BatchLayer.model;
 
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class Transaction {
+public class Transaction implements Serializable {
     private Client client;
     private Date Transaction_date;
     private String Product;

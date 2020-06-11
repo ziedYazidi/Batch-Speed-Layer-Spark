@@ -1,6 +1,8 @@
 package BatchLayer.model;
 
-public class Geolocation {
+import java.io.Serializable;
+
+public class Geolocation implements Serializable {
     private Double Latitude;
     private Double Longitude;
     private String City;
